@@ -34,7 +34,6 @@ class Mtce extends Application {
     {
         $records = $this->tasks->all(); // get all the tasks
         $tasks = array(); // start with an empty extract
-
         // use a foreach loop, because the record indices may not be sequential
         $index = 0; // where are we in the tasks list
         $count = 0; // how many items have we added to the extract
