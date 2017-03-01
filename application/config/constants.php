@@ -1,4 +1,7 @@
 <?php
+defined('ROLE_GUEST') OR define('ROLE_GUEST', 'Guest');
+defined('ROLE_OWNER') OR define('ROLE_OWNER', 'Owner');
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
